@@ -1,6 +1,6 @@
 ---
 title: "My Website"
-author: "Your Name"
+author: "Arielle Barylsky"
 date: "Last updated on `r Sys.Date()`"
 output:
   html_document:
@@ -23,7 +23,7 @@ Hello, Website!
 library(ggplot2)
 ggplot(mtcars, aes(x=cyl, y= mpg)) +
   geom_point() +
-  labs(x= "Number of cylinders", y = "Miles per gallon")
+  labs(x= "# of cylinders", y = "Miles per gallon")
 ```
 
 
